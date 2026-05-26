@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>交通规则</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: #102344;
+      background: linear-gradient(180deg, #edf6ff 0, #f8fbff 100%);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+    .page {
+      width: min(430px, 100%);
+      min-height: 100vh;
+      margin: 0 auto;
+      padding: 18px 15px 34px;
+    }
+    .top {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+    .back {
+      display: grid;
+      place-items: center;
+      width: 38px;
+      height: 38px;
+      border-radius: 12px;
+      color: #1264f5;
+      background: #fff;
+      box-shadow: 0 10px 22px rgba(45, 92, 158, .12);
+      font-size: 24px;
+      text-decoration: none;
+      font-weight: 900;
+    }
+    h1 {
+      margin: 0;
+      color: #071735;
+      font-size: 24px;
+      font-weight: 950;
+      letter-spacing: 0;
+    }
+    .card {
+      margin-top: 13px;
+      padding: 16px;
+      border: 1px solid #dce8fb;
+      border-radius: 16px;
+      background: rgba(255, 255, 255, .95);
+      box-shadow: 0 14px 34px rgba(45, 92, 158, .11);
+    }
+    .hero {
+      color: #fff;
+      background: linear-gradient(135deg, #7654e8, #1264f5);
+    }
+    .hero strong {
+      display: block;
+      margin-bottom: 7px;
+      font-size: 21px;
+      font-weight: 950;
+    }
+    .hero p {
+      margin: 0;
+      color: rgba(255, 255, 255, .88);
+      font-size: 14px;
+      line-height: 1.7;
+      font-weight: 700;
+    }
+    h2 {
+      margin: 0 0 10px;
+      color: #0a1c3a;
+      font-size: 17px;
+      font-weight: 950;
+    }
+    .rule {
+      display: flex;
+      gap: 11px;
+      padding: 12px 0;
+      border-bottom: 1px solid #edf3fc;
+    }
+    .rule:last-child { border-bottom: 0; }
+    .num {
+      flex: 0 0 auto;
+      display: grid;
+      place-items: center;
+      width: 28px;
+      height: 28px;
+      border-radius: 9px;
+      color: #fff;
+      background: #1264f5;
+      font-size: 14px;
+      font-weight: 950;
+    }
+    .rule strong {
+      display: block;
+      margin-bottom: 3px;
+      color: #0e2242;
+      font-size: 15px;
+      font-weight: 950;
+    }
+    .rule p {
+      margin: 0;
+      color: #596b87;
+      font-size: 13px;
+      line-height: 1.6;
+      font-weight: 750;
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="top">
+      <a class="back" href="index.html" aria-label="返回">‹</a>
+      <h1>交通规则</h1>
+    </div>
+
+    <section class="card hero">
+      <strong>安全文明驾驶</strong>
+      <p>保持号牌清晰、按信号灯和标线行驶，结合车辆类型查看当地通行限制。</p>
+    </section>
+
+    <section class="card">
+      <h2>常用规则</h2>
+      <div class="rule">
+        <span class="num">1</span>
+        <div><strong>号牌清晰完整</strong><p>不得遮挡、污损、倒装、伪造或变造机动车号牌。</p></div>
+      </div>
+      <div class="rule">
+        <span class="num">2</span>
+        <div><strong>按车型通行</strong><p>蓝牌、黄牌、绿牌在不同城市可能适用不同限行和通行规定。</p></div>
+      </div>
+      <div class="rule">
+        <span class="num">3</span>
+        <div><strong>遵守限行限号</strong><p>高峰限行、区域限行、外地车限行以当地最新公告为准。</p></div>
+      </div>
+      <div class="rule">
+        <span class="num">4</span>
+        <div><strong>礼让行人</strong><p>通过斑马线、学校、医院和路口时注意减速观察。</p></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
